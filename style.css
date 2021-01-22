@@ -38,18 +38,24 @@ body{
 
 .menu-nav ul li a{
     background: #1F2128;
-    padding: 12px 20px;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     margin-right: 35px;
     font-size: 15px;
     letter-spacing: 1px;
     color: white;
+    transition: .3s;
+}
+.menu-nav ul li a:hover{
+    background: #F9F9F9;
+    color: #040714;
 }
 
 
 .bunner-content{
-    margin-top: -100vh;
-    padding: 0 90px;
+    margin-top: -110vh;
+    padding: 0 50px;
 }
 
 .content-logo-item1{
@@ -60,9 +66,64 @@ body{
 .content-item2{
     max-width: 400px;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 20px;
 }
+
+.content-item3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.plano-card h1{
+    max-width: 200px;
+    color: white;
+    font-size: 28px;
+}
+
+.plano-card h1 samp{
+    color: #f9f9f977;
+    font-size: 14px;
+}
+
+.plano-card p{
+    color: #f9f9f977;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#card1{
+    margin-bottom: 74px;
+}
+
+.plano-card a{
+    background: #0063E5;
+    color: white;
+    padding: 20px 83px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    top: 62px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.plano-card a:hover{
+    background: #0483EE;
+}
+
+.content-item3 .preco{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 11px;
+    grid-column: 1 / -1;
+    color: #f9f9f977;
+}
+
+.franquias img{
+    margin-top: 50px;
+    width: 600px;
+}
+
 
 
 
