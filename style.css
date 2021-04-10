@@ -186,3 +186,55 @@ body{
     margin: 20px auto;
     border-radius: 6px;
 }
+
+
+
+
+.teste-gratis{
+    height: 200px;
+}
+.teste-gratis-container{
+    text-align: center;
+    margin: 100px 0;
+}
+.teste-gratis-container a{
+    background-color:#0063E5 ;
+    padding: 20px 150px;
+    color: #F9F9F9;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: .6s;
+}
+.teste-gratis-container a:hover{
+    background-color: #0483EE;
+}
+
+
+
+.baixar{
+    margin: auto;
+}
+.baixar-container{
+    background-image: url(img/Module_LionKing.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 90%;
+    margin: auto;
+}
+.baixar-content{
+    max-width: 45%;
+    float: right;
+    margin: 20% 5% 0 0;
+    color: #F9F9F9;
+}
+.baixar-content h1{
+    color: #ffffff;
+    font-size: 42px;
+}
+.baixar-content p{
+    margin-top: 20px;
+    color: #f9f9f977;
+    font-size: 20px;
+}
