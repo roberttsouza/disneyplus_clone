@@ -238,3 +238,39 @@ body{
     color: #f9f9f977;
     font-size: 20px;
 }
+
+
+
+
+
+
+.diversao-container{
+    margin: auto;
+}
+.diversao-title{
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.diversao-title h1{
+    font-size: 42px;
+    color: #ffffff;
+    padding: 20px;
+}
+.diversao-title p{
+    font-size: 20px;
+    color: #f9f9f977;
+    padding: 0 0 30px 0;
+}
+.diversao-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 90%;
+    margin:0 auto;
+
+}
+.diversao-cards img{
+    max-width: 90%;
+    margin:10px auto;
+
+}
